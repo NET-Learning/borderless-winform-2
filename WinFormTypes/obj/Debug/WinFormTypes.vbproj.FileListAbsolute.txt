@@ -1,0 +1,12 @@
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\bin\Debug\WinFormTypes.exe.config
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\bin\Debug\WinFormTypes.exe
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\bin\Debug\WinFormTypes.pdb
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\bin\Debug\WinFormTypes.xml
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\obj\Debug\WinFormTypes.Frm_Main.resources
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\obj\Debug\WinFormTypes.Resources.resources
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\obj\Debug\WinFormTypes.vbproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\obj\Debug\WinFormTypes.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\obj\Debug\WinFormTypes.exe
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\obj\Debug\WinFormTypes.xml
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\obj\Debug\WinFormTypes.pdb
+C:\Users\Usuario\source\repos\WinFormTypes\WinFormTypes\obj\Debug\WinFormTypes.vbprojAssemblyReference.cache
