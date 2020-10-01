@@ -1,8 +1,9 @@
-﻿Imports System.Runtime.InteropServices
+﻿Imports System.Drawing.Drawing2D
+Imports System.Runtime.InteropServices
 
 Public Class Frm_Main
     ' Params
-    Private NewFrmBordeless As New Borderless(Me)
+    Private ReadOnly NewFrmBordeless As New Borderless(Me)
     Private gAeroEnabled As Boolean
 
     Private Sub Frm_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -26,6 +27,18 @@ Public Class Frm_Main
     Private Sub Frm_Main_MouseUp(sender As Object, e As MouseEventArgs) Handles Me.MouseUp
         Call NewFrmBordeless.BorderlessMouseUp(sender, e)
     End Sub
+
+    Private Sub Pnl_MainBody_MouseDown(sender As Object, e As MouseEventArgs) Handles Pnl_MainBody.MouseDown
+        Call NewFrmBordeless.BorderlessMouseDown(Me, e)
+    End Sub
+
+    Private Sub Pnl_MainBody_MouseMove(sender As Object, e As MouseEventArgs) Handles Pnl_MainBody.MouseMove
+        Call NewFrmBordeless.BorderlessMouseMove(Me, e)
+    End Sub
+
+    Private Sub Pnl_MainBody_MouseUp(sender As Object, e As MouseEventArgs) Handles Pnl_MainBody.MouseUp
+        Call NewFrmBordeless.BorderlessMouseUp(Me, e)
+    End Sub
 #End Region
 
 #Region "FORM PAINT"
@@ -35,6 +48,7 @@ Public Class Frm_Main
 #End Region
 
 #Region "SHADOW EFFECT AND RESIZER"
+
     Private Sub CheckAeroEnabled()
         ' If...
         If Environment.OSVersion.Version.Major >= 6 Then
@@ -105,6 +119,7 @@ Public Class Frm_Main
                 End If
         End Select
     End Sub
+
 #End Region
 
 End Class
